@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="project">
+                <img src="2.jpeg" alt="Projeto 3">
+                <div class="project-info">
+    <title>Webcomercs | Transformando Ideias em Negócios Digitais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .project {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .project img {
+            width: 100%;
+            height: 256px;
+            object-fit: cover;
+        }
+        .project-info {
+            padding: 20px;
+        }
+        .project-info h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .project-info p {
+            color: #777;
+        }
+        .cta {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact {
+            margin-top: 30px;
+        }
+        .contact a {
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        /* Media Queries */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                padding: 15px 20px;
+                font-size: 16px;
+            }
+            .projects {
+                grid-template-columns: 1fr; /* Exibir um único projeto por linha em telas menores */
+            }
+            footer {
+                position: relative;
+                margin-top: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 24px;
+            }
+            .cta {
+                font-size: 16px;
+                padding: 15px;
+            }
+            .contact a {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Webcomercs</h1>
+    <p>Transformando ideias em negócios digitais</p>
+</header>
+
+<nav>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+    <a href="#consultoria">Consultoria</a>
+</nav>
+
+<div class="container">
+    <section id="projetos">
+        <h2>Projetos Recentes</h2>
+        <div class="projects">
+            <!-- Projeto 1 -->
+            <div class="project">
+                              <div class="project-info">
+                    <h3>Sistema de Delivery</h3>
+                    <p>Desenvolvemos um sistema completo de delivery com geolocalização, rastreamento de pedidos e otimização de rotas. A solução ideal para restaurantes e entregadores.</p>
+                    
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="project">
+                                <div class="project-info">
+                    <h3>Aplicativo de Rastreio</h3>
+                    <p>Aplicativo de rastreamento em tempo real para otimizar a logística de entregas. A interface é intuitiva e fácil de usar.</p>
+                   
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="project">
+                               <div class="project-info">
+                    <h3>Plataforma de E-commerce</h3>
+                    <p>Plataforma de e-commerce personalizada para maximizar as vendas online. Inclui integração com sistemas de pagamento e gestão de produtos.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <p>Quer saber mais ou iniciar um novo projeto? Entre em contato com a gente!</p>
+        <p>Email: <a href="mailto:matheuschizinto@gmail.com
+">matheuschizinto@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://chat.whatsapp.com/J2E6FZjRGr0HrVbw6p3Pyq" target="_blank">Clique aqui para conversar</a></p>
+    </section>
+
+    <section id="consultoria" class="cta">
+        <p>Nosso time de especialistas está pronto para ajudar a transformar seu negócio digital! Entre em contato e descubra como podemos colaborar para o seu sucesso.</p>
+        <a href="https://chat.whatsapp.com/J2E6FZjRGr0HrVbw6p3Pyq" style="color: white; text-decoration: underline;">Solicite uma consultoria</a>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Webcomercs. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
